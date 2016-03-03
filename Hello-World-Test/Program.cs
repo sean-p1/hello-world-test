@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Hello_World_Test
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello github!");
+            Console.WriteLine(GetGreeting());
+        }
+
+        public static string GetGreeting()
+        {
+            return "Hello github!";
         }
     }
 }
